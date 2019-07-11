@@ -3,6 +3,7 @@ import VueRoute from 'vue-router'
 import VueRouter from 'vue-router';
 import View1 from '../components/page/Page1.vue'
 import View2 from '../components/page/Page2.vue'
+import Table from '../components/page/Table.vue'
 
 Vue.use(VueRoute)
 
@@ -17,6 +18,11 @@ export default new VueRouter({
             path: '/page2',
             name: 'View2',
             component: View2
+        },
+        {
+            path: '/table',
+            name: 'Table',
+            component: Table
         }
     ]
 })
