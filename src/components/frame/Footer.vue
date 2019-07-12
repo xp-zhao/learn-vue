@@ -1,22 +1,15 @@
 <template>
-  <div >
-    Footer
-  </div>
+  <div>Footer</div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
-  components: {
-
-  }
-}
+  components: {}
+};
 </script>
 
-<style scoped lang="scss">
-
+<style scoped>
 </style>

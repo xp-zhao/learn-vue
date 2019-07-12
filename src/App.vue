@@ -35,6 +35,7 @@ export default {
     color: #333;
     text-align: center;
     line-height: 60px;
+    padding: 0px!important;
   }
   
   .el-aside {
@@ -48,6 +49,6 @@ export default {
     background-color: #E9EEF3;
     color: #333;
     text-align: center;
-    line-height: 160px;
+    /* line-height: 160px; */
   }
 </style>

@@ -1,22 +1,15 @@
 <template>
-  <div>
-      page1
-  </div>
+  <div>page1</div>
 </template>
 
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
-  components: {
-
-  }
-}
+  components: {}
+};
 </script>
 
-<style scoped lang="scss">
-
+<style scoped>
 </style>
