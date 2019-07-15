@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 import View1 from '../components/page/Page1.vue'
 import View2 from '../components/page/Page2.vue'
 import Table from '../components/page/Table.vue'
-import TodoList from '../components/todoList/TodoList.vue'
+import TodoList from '../components/todoList/AppTodoList.vue'
 
 Vue.use(VueRoute)
 
