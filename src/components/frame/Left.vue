@@ -25,7 +25,7 @@
         <el-menu-item-group>
           <template slot="title">分组一</template>
           <el-menu-item index="/todoList">todoList</el-menu-item>
-          <el-menu-item index="2-2">选项2</el-menu-item>
+          <el-menu-item index="/comment">comment</el-menu-item>
         </el-menu-item-group>
         <el-menu-item-group title="分组2">
           <el-menu-item index="2-3">选项3</el-menu-item>
