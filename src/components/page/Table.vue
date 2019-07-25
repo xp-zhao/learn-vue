@@ -23,10 +23,10 @@ export default {
   methods: {
     getTableData() {
       let obj = this;
-      this.axios.get("http://localhost:8088/getData").then(function(res) {
+      this.axios.get("http://api-dev.anoah.com/api/knowledge/nwnuKnowledgePoint/getChildren/?nodeId=RJB_SX_KBZSD_1").then(function(res) {
         console.log(res);
-        obj.tableData = res.data;
-        console.log(obj.tableData);
+        // obj.tableData = res.data;
+        // console.log(obj.tableData);
       });
     }
   },

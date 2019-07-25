@@ -12,6 +12,7 @@
         </el-menu-item-group>
         <el-menu-item-group title="分组2">
           <el-menu-item index="/table">表格</el-menu-item>
+          <el-menu-item index="/tree">树形结构</el-menu-item>
         </el-menu-item-group>
         <el-submenu index="1-4">
           <template slot="title">选项4</template>

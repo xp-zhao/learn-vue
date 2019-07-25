@@ -6,6 +6,7 @@ import View2 from '../components/page/Page2.vue'
 import Table from '../components/page/Table.vue'
 import TodoList from '../components/todoList/AppTodoList.vue'
 import Comment from '../components/comment/Comment.vue'
+import Tree from '../components/page/Tree.vue'
 
 Vue.use(VueRoute)
 
@@ -25,6 +26,11 @@ export default new VueRouter({
             path: '/table',
             name: 'Table',
             component: Table
+        },
+        {
+            path: '/tree',
+            name: 'Tree',
+            component: Tree
         },
         {
             path: '/todoList',
