@@ -7,11 +7,23 @@ import Table from '../components/page/Table.vue'
 import TodoList from '../components/todoList/AppTodoList.vue'
 import Comment from '../components/comment/Comment.vue'
 import Tree from '../components/page/Tree.vue'
+import Login from '../components/page/login/Login.vue'
+import Home from '../components/home/Home.vue'
 
 Vue.use(VueRoute)
 
 export default new VueRouter({
     routes: [
+        {
+            path: '/',
+            name: 'Login',
+            component: Login
+        },
+        {
+            path: '/home',
+            name: 'Home',
+            component: Home
+        },
         {
             path: '/page1',
             name: 'View1',
