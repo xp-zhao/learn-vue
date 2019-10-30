@@ -8,6 +8,7 @@ import TodoList from '../components/todoList/AppTodoList.vue'
 import Comment from '../components/comment/Comment.vue'
 import Tree from '../components/page/Tree.vue'
 import Login from '../components/page/login/Login.vue'
+import Register from '../components/page/register/Register.vue'
 import Home from '../components/home/Home.vue'
 
 Vue.use(VueRoute)
@@ -18,6 +19,11 @@ export default new VueRouter({
             path: '/',
             name: 'Login',
             component: Login
+        },
+        {
+            path: '/register',
+            name: 'Register',
+            component: Register
         },
         {
             path: '/home',

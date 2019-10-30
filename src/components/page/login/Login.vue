@@ -20,7 +20,8 @@
         ></el-input>
       </el-form-item>
       <el-form-item style="text-align: center">
-        <el-button type="primary" v-on:click="onSubmit('loginForm')">提交</el-button>
+        <el-button type="primary" v-on:click="onSubmit('loginForm')">登录</el-button>
+        <el-link type="primary" style="left:20px" v-on:click="register()">注册</el-link>
       </el-form-item>
     </el-form>
   </div>
@@ -61,6 +62,9 @@ export default {
           return false;
         }
       });
+    },
+    register(){
+      this.$router.push("/register");
     }
   }
 };
